@@ -1,0 +1,95 @@
+{
+  "icecreams": [
+      {
+          "id": 0,
+          "flavor": "Vanilla",
+          "category": "Classic",
+          "isFeatured": false,
+          "description": "Classic and creamy vanilla flavor",
+          "toppings": ["Chocolate Sauce", "Sprinkles", "Whipped Cream"],
+          "price": 199,
+          "image": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VmFuaWxsYXxlbnwwfHwwfHx8MA%3D%3D",
+          "ingredients": [
+              { "name": "Vanilla Extract", "quantity": "2 tsp" },
+              { "name": "Heavy Cream", "quantity": "2 cups" },
+              { "name": "Sugar", "quantity": "3/4 cup" }
+          ]
+      },
+      {
+          "id": 1,
+          "flavor": "Chocolate",
+          "category": "Chocolate",
+          "isFeatured": true,
+          "description": "Rich and indulgent chocolate ice cream",
+          "toppings": ["Caramel Drizzle", "Chopped Nuts", "Whipped Cream"],
+          "price": 250,
+          "image": "https://media.istockphoto.com/id/153560334/photo/delicious-gourmet-chocolate-ice-cream.webp?a=1&b=1&s=612x612&w=0&k=20&c=32NM0sW1pZs4Wd-p0UET6h8jqn20EJ5SW8VX8WzexLw=",
+          "ingredients": [
+              { "name": "Cocoa Powder", "quantity": "1/2 cup" },
+              { "name": "Whipping Cream", "quantity": "1 1/2 cups" },
+              { "name": "Egg Yolks", "quantity": "2" }
+          ]
+      },
+      {
+          "id": 2,
+          "flavor": "Strawberry",
+          "category": "Fruity",
+          "isFeatured": true,
+          "description": "Fresh and fruity strawberry delight",
+          "toppings": ["Fresh Strawberries", "White Chocolate Chips", "Mint Leaves"],
+          "price": 240,
+          "image": "https://media.istockphoto.com/id/585304196/photo/strawberry-ice-cream.webp?a=1&b=1&s=612x612&w=0&k=20&c=D8afcNVlgAJE5ctP94kXnb2Ag-xcFYtasDW3d_BgmTA=",
+          "ingredients": [
+              { "name": "Strawberries", "quantity": "1 cup" },
+              { "name": "Cream", "quantity": "1 1/2 cups" },
+              { "name": "Sugar", "quantity": "3/4 cup" }
+          ]
+      },
+      {
+          "id": 3,
+          "flavor": "Mint Chocolate Chip",
+          "category": "Classic",
+          "isFeatured": false,
+          "description": "Refreshing mint with chocolate chunks",
+          "toppings": ["Chocolate Chips", "Crushed Mint Leaves"],
+          "price": 345,
+          "image": "https://media.istockphoto.com/id/473940526/photo/mint-ice-cream-scoop-and-chocolate-chips.webp?a=1&b=1&s=612x612&w=0&k=20&c=6or3jJM2h_PT0QPpYjHiqamhSRuOX9rxazSIAtNiQts=",
+          "ingredients": [
+              { "name": "Mint Extract", "quantity": "2 tsp" },
+              { "name": "Chocolate Chips", "quantity": "1 cup" },
+              { "name": "Cream", "quantity": "1 cup" }
+          ]
+      },
+      {
+          "id": 4,
+          "flavor": "Cookie Dough",
+          "category": "Chocolate",
+          "isFeatured": true,
+          "description": "Creamy vanilla ice cream with cookie dough chunks",
+          "toppings": ["Cookie Crumbs", "Chocolate Chips"],
+          "price": 180,
+          "image": "https://plus.unsplash.com/premium_photo-1669452303930-8222b013ac49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q29va2llJTIwRG91Z2glMjBpY2VjcmVhbXxlbnwwfHwwfHx8MA%3D%3D",
+          "ingredients": [
+              { "name": "Cookie Dough", "quantity": "1 cup" },
+              { "name": "Cream", "quantity": "2 cups" },
+              { "name": "Sugar", "quantity": "1 cup" }
+          ]
+      },
+      {
+          "id": 5,
+          "flavor": "Salted Caramel",
+          "category": "Classic",
+          "isFeatured": false,
+          "description": "Sweet and salty caramel sensation",
+          "toppings": ["Caramel Drizzle", "Sea Salt Flakes"],
+          "price": 120,
+          "image": "https://media.istockphoto.com/id/800853362/photo/salted-caramel-ice-creams-on-blue-plate.webp?a=1&b=1&s=612x612&w=0&k=20&c=MTzEbCFld6LkmM4S9Jb7obPl5lcpJgPKKmKPNzZo-yo=",
+          "ingredients": [
+              { "name": "Caramel", "quantity": "1/2 cup" },
+              { "name": "Salt", "quantity": "1 tsp" },
+              { "name": "Cream", "quantity": "1 1/2 cups" }
+          ]
+      }
+      
+  ]
+}

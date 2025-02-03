@@ -38,9 +38,10 @@ Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
 
   // Add cross-flavor configuration here
 
-  runApp(ChangeNotifierProvider<AppStateModel>(
-    create: (context) => AppStateModel()..loadProduct(),
-    child: await builder(),
-  ),
+  runApp(
+    ChangeNotifierProvider<AppStateModel>(
+      create: (context) => AppStateModel()..loadProduct(),
+      child: await builder(),
+    ),
   );
 }

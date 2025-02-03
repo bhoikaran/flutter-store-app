@@ -15,9 +15,12 @@ class IceCreamView extends StatelessWidget {
       body: Consumer<AppStateModel>(
         builder: (context, value, child) {
           final products = value.getProducts();
-          return ListView.builder(itemBuilder: (context, index) {
-            return ProductItem(iceCream: products[index]);
-          },itemCount: products.length,);
+          return ListView.builder(
+            itemBuilder: (context, index) {
+              return ProductItem(iceCream: products[index]);
+            },
+            itemCount: products.length,
+          );
         },
       ),
     );

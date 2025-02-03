@@ -50,7 +50,7 @@ abstract class Styles {
     surfaceContainerHighest: Color(0xffdee4df),
   );
 
-  static const darkScheme =  ColorScheme(
+  static const darkScheme = ColorScheme(
     brightness: Brightness.dark,
     primary: Color(0xff88d6ba),
     surfaceTint: Color(0xff88d6ba),

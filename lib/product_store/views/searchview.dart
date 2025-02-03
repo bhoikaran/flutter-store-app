@@ -59,18 +59,18 @@ class _SearchViewState extends State<SearchView> {
       ),
       body: SafeArea(
           child: Column(
-            children: [
-              _buildSearchBox(),
-              Expanded(
-                child: ListView.builder(
-                  itemBuilder: (context, index) {
-                    return ProductItem(iceCream: filteredProducts[index]);
-                  },
-                  itemCount: filteredProducts.length,
-                ),
-              ),
-            ],
-          )),
+        children: [
+          _buildSearchBox(),
+          Expanded(
+            child: ListView.builder(
+              itemBuilder: (context, index) {
+                return ProductItem(iceCream: filteredProducts[index]);
+              },
+              itemCount: filteredProducts.length,
+            ),
+          ),
+        ],
+      )),
     );
   }
 }

@@ -1,3 +1,1 @@
-class Product {
-  
-}
+class Product {}

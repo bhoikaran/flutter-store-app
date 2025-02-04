@@ -20,7 +20,9 @@ class _CartViewState extends State<CartView> {
   String? pin;
   String? mobile;
   DateTime? dateTime = DateTime.now();
-  final formKey = GlobalKey<FormState>();
+  // final formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> formKey = GlobalKey<FormState>();
+  final ExpansionTileController expansionTileController = ExpansionTileController();
   Widget _buildName() {
     return TextFormField(
       decoration: const InputDecoration(
@@ -149,6 +151,7 @@ class _CartViewState extends State<CartView> {
           return ListView(
             children: [
               ExpansionTile(
+                controller: expansionTileController,
                 title: const Text('Address Details'),
                 children: [
                   Form(
@@ -206,7 +209,7 @@ class _CartViewState extends State<CartView> {
                         style: Styles.prodctRowItemPrice,
                       ),
                       Text(
-                        '₹ ${value.shippingCost} + ${value.tax}',
+                        '₹ ${value.shippingCost.toStringAsFixed(2)} + ${value.tax.toStringAsFixed(2)}',
                         style: Styles.prodctRowItemPrice,
                       ),
                     ],
@@ -219,7 +222,7 @@ class _CartViewState extends State<CartView> {
                     children: [
                       const Text('Total', style: Styles.prodctRowItemName),
                       Text(
-                        '₹ ${value.totalCost}',
+                        '₹ ${value.totalCost.toStringAsFixed(2)}',
                         style: Styles.prodctRowItemName,
                       ),
                     ],
@@ -228,6 +231,7 @@ class _CartViewState extends State<CartView> {
                 const Divider(),
                 ElevatedButton(
                   onPressed: () {
+                    //  expansionTileController.expand(); 
                     if (formKey.currentState!.validate()) {
                       formKey.currentState!.save();
                       value.clearCart();

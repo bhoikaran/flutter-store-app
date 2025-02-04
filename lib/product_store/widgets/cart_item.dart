@@ -33,7 +33,7 @@ class CartItem extends StatelessWidget {
           style: Styles.prodctRowItemPrice,
         ),
         trailing: Text(
-          '₹${product.price! * quantity}',
+          '₹${(product.price! * quantity).toStringAsFixed(2)}',
           style: Styles.prodctRowItemName,
         ),
       ),

@@ -100,14 +100,14 @@ abstract class Styles {
   );
 
   static const TextStyle prodctRowItemName = TextStyle(
-    color: Color.fromRGBO(0, 0, 0, 8),
+  
     fontSize: 18,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.normal,
   );
 
   static const TextStyle prodctRowTotal = TextStyle(
-    color: Color.fromRGBO(0, 0, 0, 8),
+  
     fontSize: 18,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.bold,
@@ -120,7 +120,7 @@ abstract class Styles {
     fontWeight: FontWeight.bold,
   );
   static const TextStyle searchText = TextStyle(
-    color: Color.fromRGBO(0, 0, 0, 1),
+  
     fontSize: 14,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.normal,
